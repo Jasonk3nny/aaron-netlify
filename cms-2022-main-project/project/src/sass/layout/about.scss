@@ -1,0 +1,42 @@
+@include breakpoint(0, $mobile) {  
+    #about {
+        
+        background-color: #FFF7F2;
+        padding-bottom: 2rem;
+
+        img{
+            margin-top: 3rem;
+            margin-right: 3rem;
+            height: 25rem;
+            max-width: 100%;
+        }
+
+        p{
+            margin-left: 1rem;
+            margin-bottom: 1.5rem;
+            font-weight:200;
+            line-height:1.6rem;
+            font-size: 0.9rem;
+        }
+
+        .button{
+            color: black;
+            margin-bottom: 3rem;
+            margin-left: 1rem;
+            font-size: 0.8rem;
+        }
+        .super-headline {
+            margin-top: 1rem;
+            font-weight: 600;
+            margin-bottom: 0rem;
+        }
+        h2 {
+            margin-top: 0;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-weight: 200;
+        }
+        
+       
+    }
+}

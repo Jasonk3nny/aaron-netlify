@@ -1,0 +1,36 @@
+@include breakpoint(0, $mobile) {
+header {
+    background-image: url(../images/header-image.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-attachment: fixed;
+    height: 25rem;
+   
+    h1 {
+        font-size: 0.7rem;
+        max-width: 30rem;
+        font-weight: bold;
+        color: white;
+        text-transform: uppercase;
+        padding: 1rem; 
+        font-size: 300;
+    }
+
+    h2 {
+        color: $primary;
+        font-size: 1.9rem;
+        padding-top: 12rem;
+        margin-bottom: 1.3rem;
+        margin-left: 0;
+        margin-right: 4rem;
+        font-weight: 200;
+    }
+    
+    .believe {
+        margin-left: 50%;
+        max-width: 100%;
+    }
+    .button {
+        background-color: black;
+    }
+}}

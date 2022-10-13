@@ -1,0 +1,122 @@
+@include breakpoint(0, $mobile) { 
+#workshops {
+    margin-bottom: -2.5rem;
+   .super-headline {
+        margin-top: 3rem;
+        text-decoration: uppercase;
+        margin-left: 1rem;
+        font-weight:400;
+        font-size:0.9rem;
+    }
+
+    h2{
+        padding-bottom: 3rem;
+        font-weight: 200;
+        font-size:1.5rem;
+    }
+
+    .grid-wrapper{
+        display: grid;
+        grid-auto-columns: 93% 7%;
+        grid-auto-rows: 95px auto 1fr;
+
+
+            .apply{
+                writing-mode: vertical-rl;
+                transform: rotate(180deg);
+                grid-column-start: 2;
+                grid-column-end: 3;
+                grid-row-start: 2;
+                grid-row-end: 4;
+                background-color: #F7F7F7;
+                padding: 3px;
+                font-weight: 200;
+            }
+
+        
+    }
+
+    .level {
+        
+        background-color: $bggray;
+        margin-bottom: 6rem;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        padding-bottom: 2rem;
+
+        .icon {
+            background-color: #595959;
+            border-radius:50%;
+            padding: 1rem;
+            height: 6rem;
+            margin-top: -3rem;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+        
+
+        p{
+            color: white;
+            margin: 0.5rem 1rem 1rem 1rem;
+            font-weight: 200;
+            margin-bottom: 1.7rem;
+            font-size: 0.9rem;
+            line-height: 1.6rem;
+            
+        }
+
+        .number {
+            position: relative;
+            left: 3rem;
+            height: 2rem;
+            border-radius: 50%;
+            width: 2rem;
+            display: block;
+            margin-left: auto ;
+            margin-right: auto;
+            text-align: center;
+            padding-top: 0.1rem;
+            background-color: lightgray;
+            margin-top: -6rem;
+            margin-bottom: 5rem;
+            color: $primary;
+            font-size: 1.4rem;
+            font-weight:400;
+            
+        }
+        h3{
+            color: $primary;
+            margin-left: 1rem;
+            font-weight: 200;
+            font-size: 1.3rem;
+        }
+      
+        .button {
+            margin-left: 1rem;
+        }
+        
+        img{
+            height: 6rem;
+            padding: 1.4rem;
+
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: -1rem;
+        }
+
+        blockquote {
+            color: white;
+            text-align: center;
+            font-weight:200;
+            font-size: 1.1rem;
+        }
+
+    }
+   
+   
+}}

@@ -1,0 +1,9 @@
+.DS_Store
+.git/
+*.sw[nop]
+/.rvmrc
+/.rbenv-version
+.ruby-version
+/bin/
+node_modules/
+tags
