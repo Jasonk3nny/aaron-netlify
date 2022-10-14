@@ -278,7 +278,7 @@ footer a {
 }
 @media (min-width: 0rem) and (max-width: 37.4375rem) {
   #workshops {
-    margin-bottom: -2.5rem;
+    margin-bottom: 2.5rem;
   }
   #workshops .super-headline {
     margin-top: 3rem;
