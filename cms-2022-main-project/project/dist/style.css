@@ -244,7 +244,7 @@ footer a {
 
 @media (min-width: 0rem) and (max-width: 37.4375rem) {
   header {
-    background-image: url(../images/header-image.jpg);
+    background-image: url(../images/header-image-2.jpg);
     background-repeat: no-repeat;
     background-size: 100% 50%;
     background-attachment: fixed;
@@ -310,7 +310,7 @@ footer a {
   }
   #workshops .level {
     background-color: hsl(207deg, 8%, 22%);
-    margin-bottom: 6rem;
+    margin-top: 6rem;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
