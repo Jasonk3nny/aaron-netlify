@@ -566,6 +566,7 @@ header h1 {
 }
 #news article img {
   height: 15rem;
+  object-fit: cover;
 }
 
 @media (min-width: 37.5rem) and (max-width: 120rem) {
