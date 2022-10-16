@@ -247,6 +247,20 @@ footer a {
   color: #D5874C;
 }
 
+@media (min-width: 37.5rem) and (max-width: 120rem) {
+  footer h4 {
+    font-size: 1.2rem;
+  }
+  footer p {
+    font-size: 0.7rem;
+  }
+  footer a {
+    float: right;
+    margin-top: -2rem;
+    font-size: 0.7rem;
+    margin-right: 1rem;
+  }
+}
 header {
   background-color: black;
   background-image: url(../images/header-image-2.jpg);
@@ -459,8 +473,8 @@ header h1 {
   font-size: 0.8rem;
 }
 #about .super-headline {
-  font-weight: 600;
   margin-bottom: 0rem;
+  font-weight: 400;
 }
 
 @media (min-width: 0rem) and (max-width: 37.4375rem) {
@@ -537,6 +551,7 @@ header h1 {
   font-weight: 300;
 }
 #news article p {
+  font-size: 0.9rem;
   text-align: left;
   padding: 1rem;
   line-height: 1.6rem;
