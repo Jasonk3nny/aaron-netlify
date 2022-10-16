@@ -249,9 +249,10 @@ footer a {
 
 @media (min-width: 0rem) and (max-width: 37.4375rem) {
   header {
+    background-color: black;
     background-image: url(../images/header-image-2.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 50%;
+    background-size: contain;
     background-attachment: fixed;
     height: 25rem;
   }
@@ -279,6 +280,66 @@ footer a {
   }
   header .button {
     background-color: black;
+  }
+}
+@media (min-width: 37.5rem) and (max-width: 120rem) {
+  header {
+    background-color: black;
+    background-image: url(../images/header-image-2.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right top;
+    background-attachment: fixed;
+    height: 30rem;
+  }
+  header h1 {
+    font-size: 0.85rem;
+    max-width: 30rem;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    padding: 1.5rem;
+    font-size: 300;
+  }
+  header #mainnav {
+    float: right;
+    margin-right: 1rem;
+    margin-top: -3.3rem;
+  }
+  header #mainnav #hamburger {
+    display: none;
+  }
+  header #mainnav ul {
+    display: flex;
+    text-transform: uppercase;
+    text-align: right;
+    font-weight: 400;
+    font-size: 0.85rem;
+    align-items: center;
+  }
+  header #mainnav ul li {
+    padding: 0.7rem;
+    display: inline-block;
+  }
+  header #mainnav ul li a {
+    color: #FFAD6E;
+    border-bottom: 1px solid #FFAD6E;
+    padding-bottom: 0.1rem;
+  }
+  header #mainnav ul li a:hover {
+    color: #D5874C;
+    border-bottom: 1px solid #D5874C;
+    padding-bottom: 0.4rem;
+    transition: all 0.5s ease 0s;
+  }
+  header .believe {
+    margin-left: 5rem;
+    margin-top: 6rem;
+  }
+  header .believe h2 {
+    font-size: 2.5rem;
+    margin-left: 0;
+    font-weight: 200;
   }
 }
 @media (min-width: 0rem) and (max-width: 37.4375rem) {

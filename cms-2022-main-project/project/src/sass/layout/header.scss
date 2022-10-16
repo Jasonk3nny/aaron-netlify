@@ -1,8 +1,9 @@
 @include breakpoint(0, $mobile) {
 header {
+    background-color: black;
     background-image: url(../images/header-image-2.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 50%;
+    background-size: contain;
     background-attachment: fixed;
     height: 25rem;
    
@@ -34,3 +35,81 @@ header {
         background-color: black;
     }
 }}
+
+
+
+@include breakpoint($desktop, $max-width) {
+    header {
+        background-color: black;
+        background-image: url(../images/header-image-2.jpg);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: right top;
+        background-attachment: fixed;
+        height: 30rem;
+
+        h1 {
+            font-size: 0.85rem;
+            max-width: 30rem;
+            font-weight: bold;
+            color: white;
+            text-transform: uppercase;
+            padding: 1.5rem; 
+            font-size: 300;
+        }
+
+        #mainnav {
+            float: right;
+            margin-right: 1rem;
+            margin-top: -3.3rem;
+
+            #hamburger {
+                display: none;
+            }
+
+            ul {
+                display: flex;
+                text-transform: uppercase;
+                text-align: right;
+                font-weight: 400;
+                font-size: 0.85rem;
+                align-items: center;
+                
+                li {
+                    padding: 0.7rem;
+                    display: inline-block;
+
+                    a{
+                        color: #FFAD6E;
+                        border-bottom: 1px solid #FFAD6E;
+                        padding-bottom: 0.1rem;
+                    }
+
+                    a:hover {
+                        color: $primary;
+                        border-bottom: 1px solid $primary;
+                        padding-bottom: 0.4rem;
+                        transition: all 0.5s ease 0s;
+                    }
+                }
+            }
+        }
+        .believe {
+            margin-left: 5rem;
+            margin-top: 6rem;
+            h2 {
+                font-size: 2.5rem;
+                margin-left: 0;
+                font-weight: 200;
+            }
+        }
+
+
+
+
+
+
+
+    }
+    
+}
