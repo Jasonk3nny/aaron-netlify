@@ -261,10 +261,6 @@ header h1 {
   font-size: 300;
 }
 
-.button {
-  background-color: black;
-}
-
 @media (min-width: 0rem) and (max-width: 37.4375rem) {
   header {
     background-size: contain;
@@ -286,6 +282,9 @@ header h1 {
     margin-left: 0;
     margin-right: 4rem;
     font-weight: 200;
+  }
+  header .button {
+    background-color: black;
   }
 }
 @media (min-width: 37.5rem) and (max-width: 120rem) {
@@ -337,6 +336,9 @@ header h1 {
     font-size: 2.5rem;
     margin-left: 0;
     font-weight: 200;
+  }
+  header .button {
+    background-color: black;
   }
 }
 @media (min-width: 0rem) and (max-width: 37.4375rem) {
@@ -441,9 +443,28 @@ header h1 {
     font-size: 1.1rem;
   }
 }
+#about {
+  background-color: #FFF7F2;
+}
+#about p {
+  margin-left: 1rem;
+  margin-bottom: 1.5rem;
+  font-weight: 200;
+  line-height: 1.6rem;
+  font-size: 0.9rem;
+}
+#about .button {
+  color: black;
+  margin-left: 1rem;
+  font-size: 0.8rem;
+}
+#about .super-headline {
+  font-weight: 600;
+  margin-bottom: 0rem;
+}
+
 @media (min-width: 0rem) and (max-width: 37.4375rem) {
   #about {
-    background-color: #FFF7F2;
     padding-bottom: 3rem;
   }
   #about img {
@@ -452,27 +473,38 @@ header h1 {
     height: 25rem;
     max-width: 100%;
   }
-  #about p {
-    margin-left: 1rem;
-    margin-bottom: 1.5rem;
-    font-weight: 200;
-    line-height: 1.6rem;
-    font-size: 0.9rem;
-  }
-  #about .button {
-    color: black;
-    margin-left: 1rem;
-    font-size: 0.8rem;
-  }
   #about .super-headline {
     margin-top: 1rem;
-    font-weight: 600;
-    margin-bottom: 0rem;
   }
   #about h2 {
     margin-top: 0;
     margin-bottom: 1rem;
     font-size: 1.5rem;
+    font-weight: 200;
+  }
+}
+@media (min-width: 37.5rem) and (max-width: 120rem) {
+  #about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #about img {
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    max-width: 50%;
+    flex-basis: 40%;
+    float: left;
+  }
+  #about .about-text {
+    padding-right: 10rem;
+    margin-bottom: 7rem;
+  }
+  #about h2 {
+    margin-bottom: 1.2rem;
+    font-size: 2.5rem;
     font-weight: 200;
   }
 }

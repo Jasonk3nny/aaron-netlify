@@ -12,9 +12,7 @@ header {
         font-size: 300;
     }
 }
-.button {
-    background-color: black;
-}
+
 
 
 @include breakpoint(0, $mobile) {
@@ -39,6 +37,9 @@ header {
             margin-right: 4rem;
             font-weight: 200;
         }
+    }
+    .button {
+        background-color: black;
     }
 }
 }
@@ -100,6 +101,9 @@ header {
                 margin-left: 0;
                 font-weight: 200;
             }
+        }
+        .button {
+            background-color: black;
         }
     } 
 }

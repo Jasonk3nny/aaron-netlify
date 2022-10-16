@@ -1,7 +1,27 @@
+#about {
+    background-color: #FFF7F2;
+
+    p{
+        margin-left: 1rem;
+        margin-bottom: 1.5rem;
+        font-weight:200;
+        line-height:1.6rem;
+        font-size: 0.9rem;
+    }
+    .button{
+        color: black;
+        margin-left: 1rem;
+        font-size: 0.8rem;
+    }
+
+    .super-headline {
+        font-weight: 600;
+        margin-bottom: 0rem;
+    }
+}
+
 @include breakpoint(0, $mobile) {  
     #about {
-        
-        background-color: #FFF7F2;
         padding-bottom: 3rem;
 
         img{
@@ -11,23 +31,9 @@
             max-width: 100%;
         }
 
-        p{
-            margin-left: 1rem;
-            margin-bottom: 1.5rem;
-            font-weight:200;
-            line-height:1.6rem;
-            font-size: 0.9rem;
-        }
-
-        .button{
-            color: black;
-            margin-left: 1rem;
-            font-size: 0.8rem;
-        }
+       
         .super-headline {
             margin-top: 1rem;
-            font-weight: 600;
-            margin-bottom: 0rem;
         }
         h2 {
             margin-top: 0;
@@ -37,5 +43,35 @@
         }
         
        
+    }
+}
+
+
+@include breakpoint($desktop, $max-width) {
+    #about {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            margin-top: 5rem;
+            margin-bottom: 10rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+            max-width: 50%;
+            flex-basis: 40%;
+            float: left;
+        }
+
+        .about-text {
+            padding-right: 10rem;
+            margin-bottom: 7rem;
+        }
+
+        h2 {
+            margin-bottom: 1.2rem;
+            font-size:2.5rem;
+            font-weight: 200;
+        }
     }
 }
