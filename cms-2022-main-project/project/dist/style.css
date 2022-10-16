@@ -247,25 +247,38 @@ footer a {
   color: #D5874C;
 }
 
+header {
+  background-color: black;
+  background-image: url(../images/header-image-2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+header h1 {
+  max-width: 30rem;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  font-size: 300;
+}
+
+.button {
+  background-color: black;
+}
+
 @media (min-width: 0rem) and (max-width: 37.4375rem) {
   header {
-    background-color: black;
-    background-image: url(../images/header-image-2.jpg);
-    background-repeat: no-repeat;
     background-size: contain;
-    background-attachment: fixed;
     height: 25rem;
   }
   header h1 {
     font-size: 0.7rem;
-    max-width: 30rem;
-    font-weight: bold;
-    color: white;
-    text-transform: uppercase;
     padding: 1rem;
-    font-size: 300;
   }
-  header h2 {
+  header .believe {
+    margin-left: 50%;
+    max-width: 100%;
+  }
+  header .believe h2 {
     color: #D5874C;
     font-size: 1.9rem;
     padding-top: 12rem;
@@ -274,32 +287,16 @@ footer a {
     margin-right: 4rem;
     font-weight: 200;
   }
-  header .believe {
-    margin-left: 50%;
-    max-width: 100%;
-  }
-  header .button {
-    background-color: black;
-  }
 }
 @media (min-width: 37.5rem) and (max-width: 120rem) {
   header {
-    background-color: black;
-    background-image: url(../images/header-image-2.jpg);
-    background-repeat: no-repeat;
     background-size: auto;
     background-position: right top;
-    background-attachment: fixed;
     height: 30rem;
   }
   header h1 {
     font-size: 0.85rem;
-    max-width: 30rem;
-    font-weight: bold;
-    color: white;
-    text-transform: uppercase;
     padding: 1.5rem;
-    font-size: 300;
   }
   header #mainnav {
     float: right;
