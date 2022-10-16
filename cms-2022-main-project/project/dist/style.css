@@ -118,6 +118,11 @@ a:link, a:visited, a:hover, a:active {
   text-decoration: none;
 }
 
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
 body {
   font-family: "Source Sans Pro";
 }
@@ -381,7 +386,7 @@ footer a {
 @media (min-width: 0rem) and (max-width: 37.4375rem) {
   #about {
     background-color: #FFF7F2;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
   }
   #about img {
     margin-top: 3rem;
@@ -398,7 +403,6 @@ footer a {
   }
   #about .button {
     color: black;
-    margin-bottom: 3rem;
     margin-left: 1rem;
     font-size: 0.8rem;
   }
@@ -425,8 +429,9 @@ footer a {
     display: flex;
     flex-direction: row;
     column-gap: 1rem;
-    overflow-x: hidden;
+    overflow-x: auto;
     padding: 1rem;
+    scroll-behavior: smooth;
   }
   #news article {
     max-width: 80%;
