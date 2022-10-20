@@ -38,3 +38,13 @@ h2 {
   font-weight: 300;
 }
 
+
+@include breakpoint($desktop, $max-width) {
+  main{
+    width: 100%;
+    padding-left: 32px;
+    padding-right: 32px;
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+}
