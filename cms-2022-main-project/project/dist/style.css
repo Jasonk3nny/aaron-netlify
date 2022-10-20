@@ -1025,32 +1025,32 @@ header h1 {
   background-color: hsl(0deg, 0%, 97%);
 }
 #news article h3 {
-  font-size: 22px;
-  text-align: left;
-  margin: 0.5rem;
   color: hsl(26deg, 82%, 65%);
+  text-align: left;
 }
-
 @media (min-width: 0rem) and (max-width: 37.4375rem) {
-  #news p {
+  #news #news p {
     text-align: left;
     padding: 1rem;
     line-height: 1.6rem;
     font-weight: 200;
     font-size: 0.9rem;
   }
-  #news img {
+  #news #news img {
     height: 15rem;
     object-fit: cover;
   }
-  #news .button {
+  #news #news .button {
     max-width: 120px;
     margin-left: 1rem;
   }
-  #news h3 {
+  #news #news h3 {
     font-weight: 300;
+    font-size: 22px;
+    margin: 0.5rem;
   }
 }
+
 @media (min-width: 37.5rem) and (max-width: 120rem) {
   #news .super-headline {
     margin-top: 5rem;
@@ -1069,6 +1069,8 @@ header h1 {
   #news h3 {
     font-weight: 200;
     padding-top: 0.4rem;
+    margin: 1rem;
+    font-size: 1.75rem;
   }
   #news p {
     font-size: 1.2rem;
