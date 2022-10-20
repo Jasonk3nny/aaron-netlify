@@ -257,22 +257,27 @@ footer a {
 }
 
 @media (min-width: 37.5rem) and (max-width: 120rem) {
+  footer {
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
   footer h4 {
-    font-size: 1.2rem;
+    font-size: 2rem;
+    padding-bottom: 1rem;
   }
   footer p {
-    font-size: 0.7rem;
+    font-size: 1.2rem;
   }
   footer a {
     float: right;
     margin-top: -2rem;
-    font-size: 0.7rem;
+    font-size: 1.2rem;
     margin-right: 1rem;
   }
 }
 header {
   background-color: black;
-  background-image: url(../images/header-image-2.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -288,6 +293,7 @@ header h1 {
   header {
     background-size: contain;
     height: 25rem;
+    background-image: url(../images/header-image-2.jpg);
   }
   header h1 {
     font-size: 0.7rem;
@@ -315,6 +321,7 @@ header h1 {
     background-size: contain;
     background-position: right top;
     height: 80vh;
+    background-image: url(../images/header-image-2.jpg);
   }
   header h1 {
     font-size: 1.125rem;
@@ -354,7 +361,7 @@ header h1 {
   }
   header .believe {
     margin-left: 5rem;
-    margin-top: 6rem;
+    margin-top: 15rem;
   }
   header .believe h2 {
     font-size: 3.55rem;
@@ -933,7 +940,6 @@ header h1 {
 }
 #about .super-headline {
   margin-bottom: 0rem;
-  font-weight: 400;
 }
 
 @media (min-width: 0rem) and (max-width: 37.4375rem) {
@@ -948,6 +954,7 @@ header h1 {
   }
   #about .super-headline {
     margin-top: 1rem;
+    font-weight: 400;
   }
   #about h2 {
     margin-top: 0;
@@ -980,6 +987,7 @@ header h1 {
   }
   #about .super-headline {
     font-size: 1.2rem;
+    font-weight: 400;
   }
   #about p {
     font-size: 1.2rem;
@@ -990,12 +998,6 @@ header h1 {
     font-weight: 600;
   }
 }
-#news .super-headline {
-  margin-top: 3rem;
-}
-#news h2 {
-  margin-bottom: 0.5rem;
-}
 #news .flex-wrapper {
   display: flex;
   flex-direction: row;
@@ -1003,6 +1005,17 @@ header h1 {
   overflow-x: auto;
   padding: 1rem;
   scroll-behavior: smooth;
+}
+#news .button {
+  color: black;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+#news .super-headline {
+  margin-top: 3rem;
+}
+#news h2 {
+  margin-bottom: 0.5rem;
 }
 #news article {
   max-width: 80%;
@@ -1016,31 +1029,34 @@ header h1 {
   text-align: left;
   margin: 0.5rem;
   color: hsl(26deg, 82%, 65%);
-  font-weight: 300;
-}
-#news article p {
-  font-size: 0.9rem;
-  text-align: left;
-  padding: 1rem;
-  line-height: 1.6rem;
-  font-weight: 200;
-}
-#news article .button {
-  max-width: 120px;
-  color: black;
-  margin-left: 1rem;
-  text-align: center;
-  margin-bottom: 1rem;
-}
-#news article img {
-  height: 275px;
-  width: 100%;
-  object-fit: cover;
 }
 
+@media (min-width: 0rem) and (max-width: 37.4375rem) {
+  #news p {
+    text-align: left;
+    padding: 1rem;
+    line-height: 1.6rem;
+    font-weight: 200;
+    font-size: 0.9rem;
+  }
+  #news img {
+    height: 15rem;
+    object-fit: cover;
+  }
+  #news .button {
+    max-width: 120px;
+    margin-left: 1rem;
+  }
+  #news h3 {
+    font-weight: 300;
+  }
+}
 @media (min-width: 37.5rem) and (max-width: 120rem) {
   #news .super-headline {
     margin-top: 5rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 0;
   }
   #news h2 {
     font-size: 2.5rem;
@@ -1048,11 +1064,29 @@ header h1 {
   }
   #news .flex-wrapper {
     overflow-x: hidden;
+    margin-bottom: 5rem;
   }
   #news h3 {
     font-weight: 200;
     padding-top: 0.4rem;
-    color: hsl(26deg, 82%, 65%);
+  }
+  #news p {
+    font-size: 1.2rem;
+    padding: 32px 32px 32px 32px;
+    font-weight: 200;
+    line-height: 1.5;
+  }
+  #news img {
+    height: 275px;
+    width: 100%;
+    object-fit: cover;
+  }
+  #news .button {
+    font-size: 1.1rem;
+    max-width: 160px;
+    margin-left: 32px;
+    font-weight: 600;
+    margin-bottom: 32px;
   }
 }
 

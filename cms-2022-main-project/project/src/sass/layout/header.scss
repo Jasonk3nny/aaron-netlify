@@ -1,6 +1,5 @@
 header {
     background-color: black;
-    background-image: url(../images/header-image-2.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
 
@@ -19,6 +18,7 @@ header {
 header {
     background-size: contain;
     height: 25rem;
+    background-image: url(../images/header-image-2.jpg);
    
     h1 {
         font-size: 0.7rem;
@@ -51,6 +51,7 @@ header {
         background-size: contain;
         background-position: right top;
         height: 80vh;
+        background-image: url(../images/header-image-2.jpg);
 
         h1 {
             font-size: 1.125rem;
@@ -96,7 +97,7 @@ header {
         }
         .believe {
             margin-left: 5rem;
-            margin-top: 6rem;
+            margin-top: 15rem;
             h2 {
                 font-size: 3.55rem;
                 margin-left: 0;
