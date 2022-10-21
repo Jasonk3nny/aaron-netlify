@@ -14,16 +14,20 @@ footer {
 @include breakpoint($desktop, $max-width) {
 
     footer {
+        padding-left: 40px;
+        padding-top: 20px;
+        padding-bottom: 40px;
         h4 {
-            font-size:1.2rem;
+            font-size:2rem;
+            padding-bottom: 1rem;
         }
         p {
-            font-size:0.7rem;
+            font-size:1.2rem;
         }
         a {
             float: right;
             margin-top: -2rem;
-            font-size: 0.7rem;
+            font-size: 1.2rem;
             margin-right: 1rem;
         }
     }

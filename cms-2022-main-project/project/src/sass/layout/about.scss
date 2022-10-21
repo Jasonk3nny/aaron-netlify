@@ -1,5 +1,5 @@
 #about {
-    background-color: #FFF7F2;
+    background-color: hsl(23,100%,97%);
 
     p{
         margin-left: 1rem;
@@ -16,7 +16,6 @@
 
     .super-headline {
         margin-bottom: 0rem;
-        font-weight: 400;
     }
 }
 
@@ -34,6 +33,7 @@
        
         .super-headline {
             margin-top: 1rem;
+            font-weight: 400;
         }
         h2 {
             margin-top: 0;
@@ -50,28 +50,46 @@
 @include breakpoint($desktop, $max-width) {
     #about {
         display: flex;
-        align-items: center;
-        justify-content: center;
+        padding-top: 120px;
+        padding-bottom: 150px;
+        padding-left: 120px;
+        padding-right: 120px;
+        margin-bottom: 8rem;
+        min-height: 70vh;
 
         img {
-            margin-top: 5rem;
-            margin-bottom: 10rem;
-            margin-left: 1rem;
-            margin-right: 1rem;
-            max-width: 50%;
-            flex-basis: 40%;
-            float: left;
+            width: 50%;
+            object-fit: cover;
         }
 
         .about-text {
-            padding-right: 10rem;
-            margin-bottom: 7rem;
+            height: 100%;
+            margin: 0 45px;
+            width: 35%;
+            padding-top: 1rem;
         }
 
         h2 {
-            margin-bottom: 1.2rem;
-            font-size:2.5rem;
-            font-weight: 200;
+            font-size: 3.55rem;
+            font-weight: 300;
+        }
+
+        .super-headline{
+            font-size: 1.2rem;
+            font-weight: 400;
+            margin-top: 0;
+        }
+
+        p{
+            font-size: 1rem;
+            line-height: 1.5;
+            margin-bottom: 2.5rem;
+            max-width: 100%;
+        }
+
+        .button{
+            font-size: 1.1rem;
+            font-weight: 600;
         }
     }
 }
