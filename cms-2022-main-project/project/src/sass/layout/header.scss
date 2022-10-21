@@ -48,10 +48,13 @@ header {
 
 @include breakpoint($desktop, $max-width) {
     header {
-        background-size: contain;
+        background-size: auto;
         background-position: right top;
-        height: 80vh;
+        height: 70vh;
         background-image: url(../images/header-image-2.jpg);
+        background-position-x: 95%;
+        background-position-y: 10%;
+        margin-bottom: 8rem;
 
         h1 {
             font-size: 1.125rem;

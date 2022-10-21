@@ -50,21 +50,22 @@
 @include breakpoint($desktop, $max-width) {
     #about {
         display: flex;
-        padding-top: 100px;
-        padding-bottom: 100px;
+        padding-top: 120px;
+        padding-bottom: 120px;
+        padding-left: 120px;
+        padding-right: 120px;
+        margin-bottom: 8rem;
+        min-height: 70vh;
 
         img {
-            margin-left: 1rem;
-            margin-right: 1rem;
             width: 50%;
             object-fit: cover;
-            margin: 0 45px;
         }
 
         .about-text {
-            max-width: 30rem;
             height: 100%;
-            margin-bottom: 3rem;
+            margin: 0 45px;
+            width: 35%;
         }
 
         h2 {
@@ -75,11 +76,13 @@
         .super-headline{
             font-size: 1.2rem;
             font-weight: 400;
+            margin-top: 0;
         }
 
         p{
             font-size: 1.2rem;
             line-height: 1.5;
+            margin-bottom: 2.5rem;
         }
 
         .button{

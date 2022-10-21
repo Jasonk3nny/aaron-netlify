@@ -307,8 +307,18 @@
     
     @include breakpoint($desktop, $max-width) {
         #workshops{
+            padding-left: 32px;
+            padding-right: 32px;
+            max-width: 1500px;
+            margin: 0 auto;
         h2{
             font-size: 2.5rem;
+            margin-bottom: 2.5rem;
+        }
+        .super-headline{
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
         }
         .grid-wrapper{
             width: 100%;
@@ -349,7 +359,7 @@
                 display: grid;
                 grid-template-columns: 2fr 1fr 1fr;
                 grid-template-rows: 1fr;
-                padding: 1rem 0 1rem 1rem;
+                padding: 1rem 0 2rem 1rem;
     
                 .icon-container{
                     grid-column: 2/ span 1;
@@ -436,7 +446,7 @@
                     display: grid;
                     grid-template-columns: 1fr 1fr 2fr;
                     grid-template-rows: 1fr;
-                    padding: 1rem 0rem 1rem 1rem;
+                    padding: 1rem 0rem 2rem 1rem;
         
                     .icon-container{
                         grid-column: 2/ span 1;
@@ -524,7 +534,7 @@
                         display: grid;
                         grid-template-columns: 1fr 2fr 1fr;
                         grid-template-rows: 1fr;
-                        padding: 1rem 0 1rem 1rem;
+                        padding: 1rem 0 2rem 1rem;
             
                         .icon-container{
                             grid-column: 1/ span 1;
