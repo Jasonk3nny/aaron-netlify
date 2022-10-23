@@ -1113,6 +1113,7 @@ header h1 {
     padding-top: 0.4rem;
     margin: 1rem;
     font-size: 1.75rem;
+    color: hsl(26deg, 82%, 65%);
   }
   #news article {
     max-width: 80%;
