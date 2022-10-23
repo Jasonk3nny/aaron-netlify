@@ -11,6 +11,14 @@ footer {
     }
 }
 
+@include breakpoint(0, $mobile) { 
+    footer {
+        h4 {
+            font-size: 1.2rem;
+        }
+    }
+}
+
 @include breakpoint($desktop, $max-width) {
 
     footer {
