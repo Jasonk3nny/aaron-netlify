@@ -50,10 +50,7 @@
 @include breakpoint($desktop, $max-width) {
     #about {
         display: flex;
-        padding-top: 120px;
-        padding-bottom: 150px;
-        padding-left: 120px;
-        padding-right: 120px;
+        padding: 120px;
         margin-bottom: 8rem;
         min-height: 70vh;
 
@@ -66,7 +63,6 @@
             height: 100%;
             margin: 0 45px;
             width: 35%;
-            padding-top: 1rem;
         }
 
         h2 {
