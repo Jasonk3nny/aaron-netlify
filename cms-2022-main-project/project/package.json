@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@11ty/eleventy": "^1.0.2",
     "esbuild": "^0.15.10",
     "sass": "^1.55.0"
   }
