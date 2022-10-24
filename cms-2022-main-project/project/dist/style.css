@@ -998,10 +998,7 @@ header h1 {
 @media (min-width: 37.5rem) and (max-width: 120rem) {
   #about {
     display: flex;
-    padding-top: 120px;
-    padding-bottom: 150px;
-    padding-left: 120px;
-    padding-right: 120px;
+    padding: 120px;
     margin-bottom: 8rem;
     min-height: 70vh;
   }
@@ -1013,7 +1010,6 @@ header h1 {
     height: 100%;
     margin: 0 45px;
     width: 35%;
-    padding-top: 1rem;
   }
   #about h2 {
     font-size: 3.55rem;
