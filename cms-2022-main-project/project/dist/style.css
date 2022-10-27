@@ -1081,6 +1081,9 @@ header h1 {
     color: hsl(26deg, 82%, 65%);
     font-weight: 300;
   }
+  #news article h3 a {
+    color: hsl(26deg, 82%, 65%);
+  }
   #news article p {
     font-size: 0.9rem;
     text-align: left;
@@ -1131,6 +1134,9 @@ header h1 {
     padding-top: 0.4rem;
     margin: 1rem;
     font-size: 1.75rem;
+    color: hsl(26deg, 82%, 65%);
+  }
+  #news h3 a {
     color: hsl(26deg, 82%, 65%);
   }
   #news article {
